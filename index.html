@@ -142,15 +142,11 @@
           <div id="ldapresult"></div> 
         </div>
         <div class="clearfix">
-          <label style="color: gray;" for="xlInput">Search Wikipedia</label>
-          <div class="input">
-            <input class="xlarge" type="search" id="wiki" size="30" maxlen="30" placeholder="Search">
-          </div>
-        </div>
-        <div class="clearfix">
           <label style="color: gray;" for="xlInput">Search Google</label>
           <div class="input">
-            <input class="xlarge" type="search" id="wiki" size="30" maxlen="30" placeholder="Search">
+            <form action="http://www.google.com/search" method="get" target="_blank">
+              <input class="xlarge" type="search" id="q" name="q" size="30" maxlen="30" placeholder="Search">
+            </form>
           </div>
         </div>
       </div>
